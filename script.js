@@ -298,7 +298,9 @@ function clear() {
 	editor.setValue("");
 	reset();
 }
-
+/**
+ * Shows "Test button clicked" on blue text field
+ */
 function test() {
 	document.getElementById("infoBox").innerHTML = "Test button clicked";
 }
